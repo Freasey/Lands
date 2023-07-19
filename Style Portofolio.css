@@ -1,0 +1,191 @@
+body,html {
+  width: 100%;
+  height: 100%;
+  background: #ededed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.sticky {
+  position: fixed;
+    width: 100%;
+    top: 0rem;
+    z-index: 100;
+}
+h1 {
+font-family: 'Manrope', sans-serif;
+color: black;
+font-size: 50px;
+font-weight: 800 ;
+}
+h3 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 200;
+}
+
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+strong {
+  font-size:20px ;
+}
+.btn-outline-success {
+    background-color: #5F5F5F ;
+    --bs-btn-color: none;
+    --bs-btn-border-color: none;
+    --bs-btn-hover-color: #5F5F5F ;
+    --bs-btn-hover-bg: black;
+    --bs-btn-hover-border-color: none;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #5F5F5F ;
+    --bs-btn-active-bg: none;
+    --bs-btn-active-border-color: none;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: none;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: none;
+    --bs-gradient: none;a
+}
+.btn {
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.btn-xl {
+  width: 400px;
+  height: 300px;
+}
+.btn-white {
+  background-color: white;
+}
+.btn-xl:hover {
+  width: 400px;
+  height: 300px;
+  transition: 0.5s;
+  color: black;
+}
+h2{
+  font-size:30px ;
+}
+
+span {
+  color: white;
+}
+.buffer{
+  height: 100px;
+}
+.buffermenu{
+  height: 50px;
+}
+.boxputih{
+  background-color: white;
+  height: 700px;
+  overflow: hidden;
+}
+.boxhitam{
+  background-color: black;
+  height: 300px;
+  overflow: hidden;}
+.boxhitamopa{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 700px;
+    overflow: hidden;
+}
+.boxabu{
+  background-color: gray;
+  height: 400px;
+  overflow: hidden;
+}
+
+#fadeleft {
+  animation:fadeInLeft; 
+  animation-duration: 2s; 
+  visibility: visible; 
+}
+#faderight {
+  animation: fadeInRight 1s ease-in-out;
+  animation-duration: 2s;
+  visibility: visible;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.textputih{
+  color:white;
+}
+.lipanjang{
+  margin: 20px 0;
+}
+.uldot{
+    list-style-type: none;
+}
+.bufferkecil{
+  height: 20px;
+}
+#video{
+  width: 163px;
+  height: 160px;
+}
+#desain{
+  width: 275px;
+  height: 227px; 
+}
+button{
+  max-width: 100%;
+  margin: 10px;
+}
+.a{
+  color: ;
+}
+.portl{
+  width:400px;
+  margin: auto;
+  transition: all 1s;
+  
+}
+.portl:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+.portp{
+  height:400px;
+  margin: 20px;
+  transition: all 1s;
+  
+}
+.portp:hover{
+  transform: scale(1.1);
+  z-index: 1;
+}
+img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+video{
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;}
+
+    @media only screen and (max-width: 600px) {
+
+      .portl{
+        width: 40%;
+      }
+      .portp{
+        height: 200px;
+      }
+    }
